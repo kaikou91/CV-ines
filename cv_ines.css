@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+body {
+    /* font-family: 'Poppins', sans-serif; */
+    color: #000000;
+    font-family: 'Lobster', cursive;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.containeur {
+    width: 1000px;
+    /* height: 1080px; */
+    background-image: url('bg_cv_2.jpg');
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.darkMode {
+    background-image: url('bg_cv_i_2.jpg') !important;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+.ex_pro {
+    font-size: 15px;
+    margin-top: 13px;
+    width: 382px;
+    padding-left: 14px;
+}
+
+.ex_pro h4 {
+    color: palevioletred;
+}
+
+.ex1 {
+    width: 70%;
+}
+
+.autre {
+    margin-top: 163px;
+    margin-left: 14px;
+    font-size: 21px;
+    color: orangered;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.nami {
+    /* margin-top: 350px; */
+    margin-right: 200px;
+}
+
+img {
+    margin-top: 47px;
+    height: 94px;
+    border-radius: 20px;
+    margin-right: 60px;
+}
+
+.competences {
+    text-align: right;
+    padding-right: 10px;
+    font-size: 21px;
+}
+
+.competences h4 {
+    color: cornflowerblue;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* BLOC TEXTE CENTRAL */
+
+#text-cent {
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 37vh;
+    margin-top: 3vh;
+    left: 48vw;
+    margin-left: -15vw;
+    text-align: center;
+    width: 30vw;
+    height: 30vw;
+}
+
+#text-cent h2,
+#text-cent h3 {
+    margin: 0;
+}
+
+#text-cent h2 {
+    font-variant: small-caps;
+}
+
+#text-cent p {
+    font-size: 0.9em;
+    margin: 0;
+}
+
+
+/* Formation */
+
+.formations {
+    text-align: right;
+    margin-top: 115px;
+    padding-right: 10px;
+    font-size: 20px;
+}
